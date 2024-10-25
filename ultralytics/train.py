@@ -12,7 +12,7 @@ results = model.train(
     epochs=5,
     imgsz=[1920, 1200],
     device=device,  # 指定使用的设备
-    workers=4,      # 使用的工作进程数量
+    workers=0,      # 使用的工作进程数量
     batch=8,        # 每个 GPU 的批量大小
     cache=True
 )
