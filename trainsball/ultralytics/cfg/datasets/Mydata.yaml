@@ -1,0 +1,7 @@
+# data.yaml
+
+train: /kaggle/working/datasets/images/train
+val: /kaggle/working/datasets/images/val
+
+nc: 1  # 类别数量
+names: ['ball']  # 类别名称
