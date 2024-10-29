@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:06:20 PM.
+      Build started 10/29/2024 5:46:12 PM.
       
       Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.63
+      Time Elapsed 00:00:01.09
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -66,9 +66,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:06:21 PM.
+      Build started 10/29/2024 5:46:13 PM.
       
       Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.60
+      Time Elapsed 00:00:00.80
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -121,14 +121,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-6jxbnu"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-6jxbnu"
+      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-dxjchz"
+      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-dxjchz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,47 +137,47 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-6jxbnu'
+        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-dxjchz'
         
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_88231.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_16308.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:06:22 PM.
+        Build started 10/29/2024 5:46:14 PM.
         
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6jxbnu\\cmTC_88231.vcxproj" on node 1 (default targets).
+        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxjchz\\cmTC_16308.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_88231.dir\\Debug\\".
+          Creating directory "cmTC_16308.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6jxbnu\\Debug\\".
-          Creating directory "cmTC_88231.dir\\Debug\\cmTC_88231.tlog\\".
+          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxjchz\\Debug\\".
+          Creating directory "cmTC_16308.dir\\Debug\\cmTC_16308.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_88231.dir\\Debug\\cmTC_88231.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_88231.dir\\Debug\\cmTC_88231.tlog\\unsuccessfulbuild".
+          Creating "cmTC_16308.dir\\Debug\\cmTC_16308.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_16308.dir\\Debug\\cmTC_16308.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88231.dir\\Debug\\\\" /Fd"cmTC_88231.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16308.dir\\Debug\\\\" /Fd"cmTC_16308.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\25697\\.conda\\envs\\littleball\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88231.dir\\Debug\\\\" /Fd"cmTC_88231.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16308.dir\\Debug\\\\" /Fd"cmTC_16308.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\25697\\.conda\\envs\\littleball\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6jxbnu\\Debug\\cmTC_88231.exe" /INCREMENTAL /ILK:"cmTC_88231.dir\\Debug\\cmTC_88231.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-6jxbnu/Debug/cmTC_88231.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-6jxbnu/Debug/cmTC_88231.lib" /MACHINE:X64  /machine:x64 cmTC_88231.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_88231.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6jxbnu\\Debug\\cmTC_88231.exe
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxjchz\\Debug\\cmTC_16308.exe" /INCREMENTAL /ILK:"cmTC_16308.dir\\Debug\\cmTC_16308.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-dxjchz/Debug/cmTC_16308.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-dxjchz/Debug/cmTC_16308.lib" /MACHINE:X64  /machine:x64 cmTC_16308.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_16308.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxjchz\\Debug\\cmTC_16308.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_88231.dir\\Debug\\cmTC_88231.tlog\\unsuccessfulbuild".
-          Touching "cmTC_88231.dir\\Debug\\cmTC_88231.tlog\\cmTC_88231.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6jxbnu\\cmTC_88231.vcxproj" (default targets).
+          Deleting file "cmTC_16308.dir\\Debug\\cmTC_16308.tlog\\unsuccessfulbuild".
+          Touching "cmTC_16308.dir\\Debug\\cmTC_16308.tlog\\cmTC_16308.lastbuildstate".
+        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxjchz\\cmTC_16308.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.60
+        Time Elapsed 00:00:00.55
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
@@ -193,9 +193,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
@@ -204,14 +204,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-58m499"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-58m499"
+      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-e5qbhk"
+      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-e5qbhk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,47 +221,47 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-58m499'
+        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-e5qbhk'
         
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e7273.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8eda1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:06:23 PM.
+        Build started 10/29/2024 5:46:15 PM.
         
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58m499\\cmTC_e7273.vcxproj" on node 1 (default targets).
+        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e5qbhk\\cmTC_8eda1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e7273.dir\\Debug\\".
+          Creating directory "cmTC_8eda1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58m499\\Debug\\".
-          Creating directory "cmTC_e7273.dir\\Debug\\cmTC_e7273.tlog\\".
+          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e5qbhk\\Debug\\".
+          Creating directory "cmTC_8eda1.dir\\Debug\\cmTC_8eda1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e7273.dir\\Debug\\cmTC_e7273.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e7273.dir\\Debug\\cmTC_e7273.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8eda1.dir\\Debug\\cmTC_8eda1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8eda1.dir\\Debug\\cmTC_8eda1.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e7273.dir\\Debug\\\\" /Fd"cmTC_e7273.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8eda1.dir\\Debug\\\\" /Fd"cmTC_8eda1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\25697\\.conda\\envs\\littleball\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e7273.dir\\Debug\\\\" /Fd"cmTC_e7273.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8eda1.dir\\Debug\\\\" /Fd"cmTC_8eda1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\25697\\.conda\\envs\\littleball\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58m499\\Debug\\cmTC_e7273.exe" /INCREMENTAL /ILK:"cmTC_e7273.dir\\Debug\\cmTC_e7273.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-58m499/Debug/cmTC_e7273.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-58m499/Debug/cmTC_e7273.lib" /MACHINE:X64  /machine:x64 cmTC_e7273.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_e7273.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58m499\\Debug\\cmTC_e7273.exe
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e5qbhk\\Debug\\cmTC_8eda1.exe" /INCREMENTAL /ILK:"cmTC_8eda1.dir\\Debug\\cmTC_8eda1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-e5qbhk/Debug/cmTC_8eda1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-e5qbhk/Debug/cmTC_8eda1.lib" /MACHINE:X64  /machine:x64 cmTC_8eda1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8eda1.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e5qbhk\\Debug\\cmTC_8eda1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e7273.dir\\Debug\\cmTC_e7273.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e7273.dir\\Debug\\cmTC_e7273.tlog\\cmTC_e7273.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58m499\\cmTC_e7273.vcxproj" (default targets).
+          Deleting file "cmTC_8eda1.dir\\Debug\\cmTC_8eda1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8eda1.dir\\Debug\\cmTC_8eda1.tlog\\cmTC_8eda1.lastbuildstate".
+        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e5qbhk\\cmTC_8eda1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.66
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
@@ -277,876 +277,203 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.41.34120.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:17:02 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.84
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:17:03 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.84
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
-      
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/packages/abseil_x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
-      - "Detecting C compiler ABI info"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-71pmbp"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-71pmbp"
+      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-179dhc"
+      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-179dhc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-71pmbp'
+        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-179dhc'
         
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aaeb5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d6735.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:17:04 PM.
+        Build started 10/29/2024 5:46:16 PM.
         
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71pmbp\\cmTC_aaeb5.vcxproj" on node 1 (default targets).
+        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\cmTC_d6735.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_aaeb5.dir\\Debug\\".
+          Creating directory "cmTC_d6735.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71pmbp\\Debug\\".
-          Creating directory "cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.tlog\\".
+          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\Debug\\".
+          Creating directory "cmTC_d6735.dir\\Debug\\cmTC_d6735.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d6735.dir\\Debug\\cmTC_d6735.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d6735.dir\\Debug\\cmTC_d6735.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aaeb5.dir\\Debug\\\\" /Fd"cmTC_aaeb5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6735.dir\\Debug\\\\" /Fd"cmTC_d6735.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aaeb5.dir\\Debug\\\\" /Fd"cmTC_aaeb5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71pmbp\\Debug\\cmTC_aaeb5.exe" /INCREMENTAL /ILK:"cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-71pmbp/Debug/cmTC_aaeb5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-71pmbp/Debug/cmTC_aaeb5.lib" /MACHINE:X64  /machine:x64 cmTC_aaeb5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_aaeb5.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71pmbp\\Debug\\cmTC_aaeb5.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_aaeb5.dir\\Debug\\cmTC_aaeb5.tlog\\cmTC_aaeb5.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71pmbp\\cmTC_aaeb5.vcxproj" (default targets).
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6735.dir\\Debug\\\\" /Fd"cmTC_d6735.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\src.c"
+          src.c
+        E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\cmTC_d6735.vcxproj]
+        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\cmTC_d6735.vcxproj" (default targets) -- FAILED.
         
-        Build succeeded.
+        Build FAILED.
+        
+        "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\cmTC_d6735.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-179dhc\\cmTC_d6735.vcxproj]
+        
             0 Warning(s)
-            0 Error(s)
+            1 Error(s)
         
-        Time Elapsed 00:00:00.60
+        Time Elapsed 00:00:00.35
         
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/packages/abseil_x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
-      - "Detecting CXX compiler ABI info"
+      - "Looking for pthread_create in pthreads"
     directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-nx2s09"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-nx2s09"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-nx2s09'
-        
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_217f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:17:05 PM.
-        
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx2s09\\cmTC_217f5.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_217f5.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx2s09\\Debug\\".
-          Creating directory "cmTC_217f5.dir\\Debug\\cmTC_217f5.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_217f5.dir\\Debug\\cmTC_217f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_217f5.dir\\Debug\\cmTC_217f5.tlog\\unsuccessfulbuild".
-        ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_217f5.dir\\Debug\\\\" /Fd"cmTC_217f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_217f5.dir\\Debug\\\\" /Fd"cmTC_217f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx2s09\\Debug\\cmTC_217f5.exe" /INCREMENTAL /ILK:"cmTC_217f5.dir\\Debug\\cmTC_217f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-nx2s09/Debug/cmTC_217f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-nx2s09/Debug/cmTC_217f5.lib" /MACHINE:X64  /machine:x64 cmTC_217f5.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_217f5.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx2s09\\Debug\\cmTC_217f5.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_217f5.dir\\Debug\\cmTC_217f5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_217f5.dir\\Debug\\cmTC_217f5.tlog\\cmTC_217f5.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx2s09\\cmTC_217f5.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.64
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:18:41 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.61
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:18:42 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.62
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-u7plr4"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-u7plr4"
+      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-9sqat9"
+      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-9sqat9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-u7plr4'
+        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-9sqat9'
         
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_435fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f9bd1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:18:43 PM.
+        Build started 10/29/2024 5:46:16 PM.
         
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7plr4\\cmTC_435fc.vcxproj" on node 1 (default targets).
+        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\cmTC_f9bd1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_435fc.dir\\Debug\\".
+          Creating directory "cmTC_f9bd1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7plr4\\Debug\\".
-          Creating directory "cmTC_435fc.dir\\Debug\\cmTC_435fc.tlog\\".
+          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\Debug\\".
+          Creating directory "cmTC_f9bd1.dir\\Debug\\cmTC_f9bd1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_435fc.dir\\Debug\\cmTC_435fc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_435fc.dir\\Debug\\cmTC_435fc.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f9bd1.dir\\Debug\\cmTC_f9bd1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f9bd1.dir\\Debug\\cmTC_f9bd1.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_435fc.dir\\Debug\\\\" /Fd"cmTC_435fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9bd1.dir\\Debug\\\\" /Fd"cmTC_f9bd1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_435fc.dir\\Debug\\\\" /Fd"cmTC_435fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9bd1.dir\\Debug\\\\" /Fd"cmTC_f9bd1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
         Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7plr4\\Debug\\cmTC_435fc.exe" /INCREMENTAL /ILK:"cmTC_435fc.dir\\Debug\\cmTC_435fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-u7plr4/Debug/cmTC_435fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-u7plr4/Debug/cmTC_435fc.lib" /MACHINE:X64  /machine:x64 cmTC_435fc.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_435fc.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7plr4\\Debug\\cmTC_435fc.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_435fc.dir\\Debug\\cmTC_435fc.tlog\\unsuccessfulbuild".
-          Touching "cmTC_435fc.dir\\Debug\\cmTC_435fc.tlog\\cmTC_435fc.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7plr4\\cmTC_435fc.vcxproj" (default targets).
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\Debug\\cmTC_f9bd1.exe" /INCREMENTAL /ILK:"cmTC_f9bd1.dir\\Debug\\cmTC_f9bd1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-9sqat9/Debug/cmTC_f9bd1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-9sqat9/Debug/cmTC_f9bd1.lib" /MACHINE:X64  /machine:x64 cmTC_f9bd1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\cmTC_f9bd1.vcxproj]
+        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\cmTC_f9bd1.vcxproj" (default targets) -- FAILED.
         
-        Build succeeded.
+        Build FAILED.
+        
+        "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\cmTC_f9bd1.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sqat9\\cmTC_f9bd1.vcxproj]
+        
             0 Warning(s)
-            0 Error(s)
+            1 Error(s)
         
-        Time Elapsed 00:00:00.64
+        Time Elapsed 00:00:00.44
         
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/packages/abseil_x64-windows/share/absl/abslConfig.cmake:4 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake:7 (find_package)"
+      - "C:/Users/25697/.conda/envs/littleball/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:19 (find_dependency)"
+      - "vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
-      - "Detecting CXX compiler ABI info"
+      - "Looking for pthread_create in pthread"
     directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-a872zv"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-a872zv"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-a872zv'
-        
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_82593.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:18:44 PM.
-        
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a872zv\\cmTC_82593.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_82593.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a872zv\\Debug\\".
-          Creating directory "cmTC_82593.dir\\Debug\\cmTC_82593.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_82593.dir\\Debug\\cmTC_82593.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_82593.dir\\Debug\\cmTC_82593.tlog\\unsuccessfulbuild".
-        ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82593.dir\\Debug\\\\" /Fd"cmTC_82593.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82593.dir\\Debug\\\\" /Fd"cmTC_82593.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a872zv\\Debug\\cmTC_82593.exe" /INCREMENTAL /ILK:"cmTC_82593.dir\\Debug\\cmTC_82593.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-a872zv/Debug/cmTC_82593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-a872zv/Debug/cmTC_82593.lib" /MACHINE:X64  /machine:x64 cmTC_82593.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_82593.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a872zv\\Debug\\cmTC_82593.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_82593.dir\\Debug\\cmTC_82593.tlog\\unsuccessfulbuild".
-          Touching "cmTC_82593.dir\\Debug\\cmTC_82593.tlog\\cmTC_82593.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a872zv\\cmTC_82593.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.68
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:22:33 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.65
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/26/2024 6:22:34 PM.
-      
-      Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.66
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-ibnf9m"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-ibnf9m"
+      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-c1g2ch"
+      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-c1g2ch"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-ibnf9m'
+        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-c1g2ch'
         
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dd1cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9bbe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:22:35 PM.
+        Build started 10/29/2024 5:46:17 PM.
         
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ibnf9m\\cmTC_dd1cb.vcxproj" on node 1 (default targets).
+        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\cmTC_c9bbe.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dd1cb.dir\\Debug\\".
+          Creating directory "cmTC_c9bbe.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ibnf9m\\Debug\\".
-          Creating directory "cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.tlog\\".
+          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\Debug\\".
+          Creating directory "cmTC_c9bbe.dir\\Debug\\cmTC_c9bbe.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c9bbe.dir\\Debug\\cmTC_c9bbe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c9bbe.dir\\Debug\\cmTC_c9bbe.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd1cb.dir\\Debug\\\\" /Fd"cmTC_dd1cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9bbe.dir\\Debug\\\\" /Fd"cmTC_c9bbe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd1cb.dir\\Debug\\\\" /Fd"cmTC_dd1cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9bbe.dir\\Debug\\\\" /Fd"cmTC_c9bbe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\CheckFunctionExists.c"
+          CheckFunctionExists.c
         Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ibnf9m\\Debug\\cmTC_dd1cb.exe" /INCREMENTAL /ILK:"cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-ibnf9m/Debug/cmTC_dd1cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-ibnf9m/Debug/cmTC_dd1cb.lib" /MACHINE:X64  /machine:x64 cmTC_dd1cb.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_dd1cb.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ibnf9m\\Debug\\cmTC_dd1cb.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dd1cb.dir\\Debug\\cmTC_dd1cb.tlog\\cmTC_dd1cb.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ibnf9m\\cmTC_dd1cb.vcxproj" (default targets).
+          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\Debug\\cmTC_c9bbe.exe" /INCREMENTAL /ILK:"cmTC_c9bbe.dir\\Debug\\cmTC_c9bbe.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-c1g2ch/Debug/cmTC_c9bbe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-c1g2ch/Debug/cmTC_c9bbe.lib" /MACHINE:X64  /machine:x64 cmTC_c9bbe.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\cmTC_c9bbe.vcxproj]
+        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\cmTC_c9bbe.vcxproj" (default targets) -- FAILED.
         
-        Build succeeded.
+        Build FAILED.
+        
+        "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\cmTC_c9bbe.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c1g2ch\\cmTC_c9bbe.vcxproj]
+        
             0 Warning(s)
-            0 Error(s)
+            1 Error(s)
         
-        Time Elapsed 00:00:00.61
+        Time Elapsed 00:00:00.42
         
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-qk56wx"
-      binary: "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-qk56wx"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-qk56wx'
-        
-        Run Build Command(s): D:/applications/VisualStudio2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1086d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/26/2024 6:22:35 PM.
-        
-        Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk56wx\\cmTC_1086d.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_1086d.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk56wx\\Debug\\".
-          Creating directory "cmTC_1086d.dir\\Debug\\cmTC_1086d.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_1086d.dir\\Debug\\cmTC_1086d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1086d.dir\\Debug\\cmTC_1086d.tlog\\unsuccessfulbuild".
-        ClCompile:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1086d.dir\\Debug\\\\" /Fd"cmTC_1086d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1086d.dir\\Debug\\\\" /Fd"cmTC_1086d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\applications\\Anaconda\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          D:\\applications\\VisualStudio2022\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk56wx\\Debug\\cmTC_1086d.exe" /INCREMENTAL /ILK:"cmTC_1086d.dir\\Debug\\cmTC_1086d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-qk56wx/Debug/cmTC_1086d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/CMakeScratch/TryCompile-qk56wx/Debug/cmTC_1086d.lib" /MACHINE:X64  /machine:x64 cmTC_1086d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1086d.vcxproj -> E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk56wx\\Debug\\cmTC_1086d.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_1086d.dir\\Debug\\cmTC_1086d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1086d.dir\\Debug\\cmTC_1086d.tlog\\cmTC_1086d.lastbuildstate".
-        Done Building Project "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\curse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qk56wx\\cmTC_1086d.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.61
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "D:/applications/Anaconda/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "D:/applications/VisualStudio2022/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      exitCode: 1
 ...

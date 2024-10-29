@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\OneDrive\Selenar\OneDrive - MSFT\proj\littleball\curse\build\CMakeFiles\53dd2f235516a3cedcabc927614a06ab\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{10E47954-0AC9-34B3-BCCD-AE02EB1B532F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/curse.dir
+E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/iolook.dir
+E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/openpic.dir
+E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/ALL_BUILD.dir
+E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/CMakeFiles/ZERO_CHECK.dir

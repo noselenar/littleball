@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "9A2tYsLi0Yc=",
+  "success": true,
+  "projectFilePath": "E:\\OneDrive\\Selenar\\OneDrive - MSFT\\proj\\littleball\\LittleBall\\LittleBall.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\25697\\.nuget\\packages\\microsoft.ml.onnxruntime.gpu\\1.19.2\\microsoft.ml.onnxruntime.gpu.1.19.2.nupkg.sha512",
+    "C:\\Users\\25697\\.nuget\\packages\\microsoft.ml.onnxruntime.gpu.linux\\1.19.2\\microsoft.ml.onnxruntime.gpu.linux.1.19.2.nupkg.sha512",
+    "C:\\Users\\25697\\.nuget\\packages\\microsoft.ml.onnxruntime.gpu.windows\\1.19.2\\microsoft.ml.onnxruntime.gpu.windows.1.19.2.nupkg.sha512",
+    "C:\\Users\\25697\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.19.2\\microsoft.ml.onnxruntime.managed.1.19.2.nupkg.sha512",
+    "C:\\Users\\25697\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

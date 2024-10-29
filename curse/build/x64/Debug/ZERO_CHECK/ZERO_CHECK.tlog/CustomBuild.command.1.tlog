@@ -1,0 +1,10 @@
+^E:\ONEDRIVE\SELENAR\ONEDRIVE - MSFT\PROJ\LITTLEBALL\CURSE\BUILD\CMAKEFILES\53DD2F235516A3CEDCABC927614A06AB\GENERATE.STAMP.RULE
+setlocal
+C:\Users\25697\.conda\envs\littleball\Lib\site-packages\cmake\data\bin\cmake.exe "-SE:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse" "-BE:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/OneDrive/Selenar/OneDrive - MSFT/proj/littleball/curse/build/openpic.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
