@@ -1,7 +1,9 @@
 !assets/
-.exe
+*.exe
 .vs/
 .vscode/
-.pdb
-.lib
-.dll
+*.pdb
+*.lib
+*.dll
+*.onnx
+
