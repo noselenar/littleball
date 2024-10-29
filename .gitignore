@@ -2,3 +2,5 @@
 .exe
 .vs/
 .vscode/
+.pdb
+.lib
